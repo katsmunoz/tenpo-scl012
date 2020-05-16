@@ -1,0 +1,29 @@
+{
+  "name": "tenpo-scl012",
+  "version": "1.0.0",
+  "description": "tenpo",
+  "main": "index.js",
+  "dependencies": {
+    "firebase": "^7.14.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaarenzu/tenpo-scl012.git"
+  },
+  "keywords": [
+    "js",
+    "html",
+    "css",
+    "accessibility"
+  ],
+  "author": "katherine muñoz, nataly cuevas, jocelyn jofre, karen zuñiga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaarenzu/tenpo-scl012/issues"
+  },
+  "homepage": "https://github.com/kaarenzu/tenpo-scl012#readme"
+}
