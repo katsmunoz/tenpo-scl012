@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
@@ -36,10 +37,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="login.html" title="Inicia sesión o Regístrate en Tenpo.">Inicia sesión</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/tarjeta-mastercard.html" >Tarjeta Mastercard</a>
+                            <a class="nav-link" href="pages/tarjeta-mastercard.html">Tarjeta Mastercard</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="pages/paga-tus-cuentas.html">Pago de cuentas</a>
@@ -54,46 +52,41 @@
                             <a class="nav-link" href="https://ayuda.tenpo.cl/support/home" target="_blank">Centro de
                                 ayuda</a>
                         </li>
+                        <li class="nav-item login-btn">
+                            <a class="nav-link" href="login.html" title="Inicia sesión o Regístrate en Tenpo.">Inicia
+                                sesión</a>
+                        </li>
                     </ul>
                 </div>
         </nav>
         </div>
     </header>
 
-    <main id="main" class="back-index">
-        <article class="container">
-            <div class="row">
-                <div class="col-lg-5 offset-lg-1">
-                    <div class="txt-banner" data-aos="fade-up" data-aos-duration="2000">
-                        <form class="download-form">
-                            <label for="telefono">Ingresa tu teléfono</label>
-                            <div class="input-group mb-3">
-                                <input autocomplete="off" name="telefono" type="text" pattern="[0-9]{8}"
-                                    class="form-control" placeholder="Tu número" required maxlength="8"
-                                    title="Tu número de 8 dígitos">
-                                <span class="cod-nacional">
-                                    +569
-                                </span>
-                                <div class="input-group-append">
-                                    <button type="submit" class="input-group-text">Descargar</button>
-                                </div>
-                            </div>
-                            <div>
-                                <p class="response" style="display: none;"></p>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+        <article class="container login-form">
+                    <h1>¿Estas list@?</h1>
+                    <h4><strong>Antes de seguir queremos contarte que:</strong></h3>
+                        <li><strong>Estamos regulados por la CMF,</strong> abriremos una cuenta digital a tu nombre.
+                        </li>
+                        <li>Estamos regulados por la CMF, abriremos una cuenta digital a tu nombre.
+                        </li>
+                        <p>Estamos regulados por la CMF, abriremos una cuenta digital a tu nombre.
+                        </p>
+                        <p><strong>¡Ten tu cédula a la mano!</strong> Vamos a necesitar algunos datos personales
+                            como tu <strong>RUT y N° de serie.</strong></p>
+                        <p>Recuerda que tu plata con <strong>Tenpo siempre está segura.</strong></p>
+                        <h4>¡Empecemos validando tu correo!</h3>
+                                <a href="#google-Login"><button type="button">CONTINUAR CON GOOGLE</button></a><br>
+                                <a href="#correo-Login"><button type="button">CONTINUAR CON MI CORREO</button></a>
         </article>
-    </main>
+
+
 
 
     <footer>
         <div class="container">
             <div class="row cont-footer">
                 <div class="footer-colm">
-                    <img src="img/tenpo-footer.svg" alt="" style="max-width: 149.18px;">
+                    <img src="img/tenpo-footer.svg" alt="Tenpo: más fácil para todos." style="max-width: 149.18px;">
                 </div>
                 <div class="footer-colm">
                     <p>Conócenos</p>
@@ -149,22 +142,26 @@
                     <p>¿Estás listo? ¡Vamos!</p>
                     <a href="https://play.google.com/store/apps/details?id=com.krealo.tenpo&hl=es_419" target="_blank"
                         onclick="gtag('event', 'clic', { 'event_category': 'home', 'event_label': 'boton_footer_google_play_home_desktop', 'value': 'google_play'});">
-                        <img src="img/googleplay-footer.svg" alt="Descarga la app por GooglePlay" style="max-width: 131.43px;">
+                        <img src="img/googleplay-footer.svg" alt="Descarga la app por GooglePlay"
+                            style="max-width: 131.43px;">
                     </a>
                     <a href="https://apps.apple.com/cl/app/tenpo/id1480047892" target="_blank"
                         onclick="gtag('event', 'clic', { 'event_category': 'home', 'event_label': 'boton_footer_app_store_home_desktop', 'value': 'app_store'});">
-                        <img src="img/appstore-footer.svg" alt="Descarga la app por AppStore" style="max-width: 131.43px;">
+                        <img src="img/appstore-footer.svg" alt="Descarga la app por AppStore"
+                            style="max-width: 131.43px;">
                     </a>
                 </div>
                 <div class="footer-colm icos-descarga mobile">
                     <p>¿Estás listo? ¡Vamos!</p>
                     <a href="https://tenpo.page.link/tenpo_web_footer" target="_blank"
                         onclick="gtag('event', 'clic', { 'event_category': 'home', 'event_label': 'boton_footer_google_play_home', 'value': 'google_play'});">
-                        <img src="img/googleplay-footer.svg" alt="Descarga la app por GooglePlay" style="max-width: 131.43px;">
+                        <img src="img/googleplay-footer.svg" alt="Descarga la app por GooglePlay."
+                            style="max-width: 131.43px;">
                     </a>
                     <a href="https://tenpo.page.link/tenpo_web_footer" target="_blank"
                         onclick="gtag('event', 'clic', { 'event_category': 'home', 'event_label': 'boton_footer_app_store_home', 'value': 'app_store'});">
-                        <img src="img/appstore-footer.svg" alt="Descarga la app por AppStore" style="max-width: 131.43px;">
+                        <img src="img/appstore-footer.svg" alt="Descarga la app por AppStore."
+                            style="max-width: 131.43px;">
                     </a>
                 </div>
             </div>
@@ -177,89 +174,6 @@
                 Registros de Emisores de Tarjetas que lleva la CMF, en <b>www.cmfchile.cl</b>
         </div>
     </div>
-
-
-    <!-- cookies -->
-    <div class="cookie-back">
-        <div class="p-cookie">
-            <div class="cont-cookie">
-                <a class="btn-cookie" id="cerrar-cookie">Cerrar X</a>
-                Este sitio utiliza cookies para mejorar tu experiencia de usuario en nuestra web.
-                <a class="mas" data-toggle="modal" data-target=".cooki">Más información</a>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="modal modal-cookie fade bd-example-modal-xl cooki" tabindex="-1" role="dialog"
-        aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-content-color">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="btn-close-modal">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <div class="container-fluid">
-                        <div class="row cookie-flex">
-                            <div class="col-lg-4 title-cookie">
-                                <h3>Políticas de <br>cookies</h3>
-                                <img src="img/galleta.png" data-aos="fade-up" data-aos-duration="800" />
-                            </div>
-                            <div class="col-lg-8 txt-cookie">
-                                Normalmente, las cookies se clasifican en cookies ”temporales“ y cookies ”permanentes“.
-                                Las cookies temporales suelen utilizarse
-                                únicamente para realizar la transmisión de comunicación en una red de comunicaciones
-                                electrónica y son estrictamente
-                                necesarias para un servicio solicitado explícitamente por el suscriptor o usuario.
-                                <br><br>
-
-                                Las cookies de sesión sonel tipo más habitual de cookies temporales y te ayudan a
-                                navegar de forma eficiente por nuestra web, realizando
-                                un seguimiento de tu recorrido página a página y teniendo en cuenta la información que
-                                has proporcionado durante
-                                la sesión actual. Las cookies temporales se guardan en la memoria temporal del navegador
-                                o cache y se borran
-                                cuando éste se cierra o cuando borras los datos del navegador. <br><br>
-
-                                Las cookies permanentes, en cambio, permiten rescatar la información guardada en base a
-                                las preferencias del usuario para la sesión actual y futuras. Se incorporan
-                                a la memoria no volátil de tu dispositivo (normalmente, en el disco duro o base de datos
-                                del servidor) y siguen
-                                siendo válidas cuando se reinicia el navegador. Las cookies permanentes suelen
-                                utilizarse para hacer un seguimiento
-                                del comportamiento del usuario y facilitar una publicidad personalizada.<br> <br>
-
-                                Las cookies propias las establece el propietario de la página web, que es el responsable
-                                de informar al usuario del sitio sobre la finalidad del tratamiento
-                                de los datos y obtener su consentimiento. Las cookies de terceros se establecen mediante
-                                plug-ins de terceros,
-                                y tanto el propietario del sitio web como el tercero son conjuntamente responsables de
-                                notificar al usuario sobre
-                                la finalidad del tratamiento de los datos y obtener su consentimiento. <br><br>
-
-                                <h4>Qué uso hace Tenpo de las cookies? </h4><br>
-
-                                <b>Tenpo </b>utiliza cookies propias solamente a través de cookies de sesión, es decir
-                                variables temporales que sólo permiten
-                                evaluar y mejorar la experiencia de usuario en base a la interacción con nuestro sitio
-                                web. Estas cookies temporales
-                                se borran cuando cierras el sitio y se tratan con especial seguridad, trabajando con
-                                datos anonimizados no atribuibles
-                                a un usuario, ya que estamos cien porciento comprometidos con tu privacidad. <br><br>
-
-                                Si visitas nuestro sitio web, entendemos
-                                que autorizas el uso de las cookies de sesión. Ten en cuenta que es posible que
-                                determinadas características
-                                de nuestro sitio web no funcionen correctamente sin las cookies de sesión son
-                                desactivadas.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
 </body>
 
 </html>
