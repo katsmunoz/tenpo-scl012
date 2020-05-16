@@ -1,0 +1,18 @@
+.login-form {
+    text-align: center;
+}
+
+.login-form h1{
+    font-weight: bold;
+    color: rgb(0, 165, 142);
+}
+
+.login-form h4, li {
+    color: #595959;
+}
+
+.btn-access {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
