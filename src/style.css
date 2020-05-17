@@ -2437,7 +2437,7 @@ main {
 
 .txt-banner p span {
     color: #00BAA4;
-    font-family: 'Gotham Bold';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .descarga-home {
@@ -2768,7 +2768,7 @@ main {
 .list li span {
     font-size: 23px;
     color: #00BAA4;
-    font-family: 'Gotham Rounded Bold';
+    font-family: 'Montserrat', sans-serif;
     margin-left: 10px;
     display: block;
     width: calc(100% - 30px);
@@ -3503,7 +3503,7 @@ form {
 }
 
 form label {
-    font-family: 'Gotham Bold';
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #00BAA4;
 }
@@ -3541,12 +3541,11 @@ form .input-group input {
 form .input-group .input-group-text {
     background: #00BAA4;
     color: #fff;
-    font-family: 'Gotham bold';
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     border-color: #00BAA4;
-    border-top-right-radius: 11px;
-    border-bottom-right-radius: 11px;
-    width: 139px;
+    border-radius: 11px;
+    width: 425px;
     text-align: center;
     display: block;
     height: 54px;
@@ -3601,7 +3600,7 @@ form .cod-nacional {
 
 .sticky h7 {
     display: inline-block;
-    font-family: 'Gotham Bold';
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding-left: 10px;
     vertical-align: middle;
@@ -3616,7 +3615,7 @@ form .cod-nacional {
 .sticky .descarga-sticky {
     background: #00BAA4;
     color: #fff;
-    font-family: 'Gotham bold';
+    font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     border-color: #00BAA4;
     border-radius: 5px;
@@ -3709,7 +3708,7 @@ button:focus {
 }
 
 b {
-    font-family: 'Gotham Bold';
+    font-family: 'Montserrat', sans-serif;
 }
 
 input[type=text],
@@ -3738,7 +3737,7 @@ textarea:focus {
 }
 
 body {
-    font-family: 'Gotham Book' !important;
+    font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     font-style: normal;
     color: #595959;
@@ -3746,7 +3745,7 @@ body {
 
 h6 {
     font-size: 22px;
-    font-family: 'Gotham Book' !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 @media (max-width: 767px) {
@@ -3757,7 +3756,7 @@ h6 {
 
 h5 {
     font-size: 20px;
-    font-family: 'Gotham Rounded Bold';
+    font-family: 'Montserrat', sans-serif;
     color: #00BAA4;
 }
 
@@ -3769,7 +3768,7 @@ h5 {
 
 h4 {
     font-size: 26px;
-    font-family: 'Gotham Rounded Bold';
+    font-family: 'Montserrat', sans-serif;
     color: #00BAA4;
 }
 
@@ -3782,7 +3781,7 @@ h4 {
 
 h3 {
     font-size: 35px;
-    font-family: 'Gotham Rounded Bold';
+    font-family: 'Montserrat', sans-serif;
     color: #00BAA4;
 }
 
@@ -3794,7 +3793,7 @@ h3 {
 
 h2 {
     margin-top: 135px;
-    font-family: 'Gotham Rounded Bold';
+    font-family: 'Montserrat', sans-serif;
     font-size: 35px;
 }
 
@@ -3830,7 +3829,7 @@ p {
 
 strong,
 b {
-    font-family: 'Gotham Bold';
+    font-family: 'Montserrat', sans-serif;
 }
 
 
