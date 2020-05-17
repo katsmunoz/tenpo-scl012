@@ -126,7 +126,7 @@ header {
         position: absolute;
         right: 25px;
         font-size: 19px;
-        color: #00BAA4;
+        color: #00A58E;
         top: 20px;
     }
 }
@@ -161,13 +161,13 @@ header {
 
 @media (max-width: 767px) {
     .menu-tenpo .navbar-nav li a {
-        color: #00BAA4 !important;
+        color: #00A58E !important;
     }
 }
 
 .menu-tenpo .navbar-nav li a:hover {
     font-family: 'Montserrat', sans-serif;
-    color: #00BAA4 !important;
+    color: #00A58E !important;
 }
 
 .menu-tenpo .navbar-nav li a:hover:after {
@@ -191,7 +191,7 @@ header {
 }
 
 .menu-tenpo .navbar-nav .active {
-    color: #00BAA4 !important;
+    color: #00A58E !important;
     font-family: 'Montserrat', sans-serif;
     display: inline-block;
     overflow: visible;
@@ -199,7 +199,7 @@ header {
 }
 
 .menu-tenpo .navbar-nav .active a {
-    color: #00BAA4 !important;
+    color: #00A58E !important;
 }
 
 .menu-tenpo .navbar-nav .active:after {
@@ -272,7 +272,7 @@ header {
     height: 2px;
     width: 23px;
     right: 0;
-    background: #00BAA4;
+    background: #00A58E;
     border-radius: 2px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -329,6 +329,15 @@ header {
     top: 0px;
 }
 
+.btn_inicio_sesion {
+    background: #00A58E;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 40%;
+}
+
 
 /*NAV END*/
 
@@ -336,9 +345,10 @@ header {
 /*footer*/
 
 footer {
-    background: #00BAA4;
+    background: #00A58E;
     padding: 68px 0px;
     color: #fff;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .cont-footer {
@@ -363,6 +373,7 @@ footer {
     text-align: center;
     max-width: 794px;
     margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 991px) {
@@ -397,7 +408,7 @@ footer {
 }
 
 .footer-colm p {
-    font-family: 'Gotham Bold';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .footer-colm ul {
@@ -2208,7 +2219,7 @@ main {
     list-style: none;
     width: 50%;
     text-align: left;
-    color: #00BAA4;
+    color: #00A58E;
     font-size: 20px;
     text-transform: uppercase;
     line-height: 32px;
@@ -2397,7 +2408,7 @@ main {
 }
 
 .banner-home {
-    background: #00BAA4;
+    background: ##00A58E;
     position: relative;
 }
 
@@ -2413,7 +2424,7 @@ main {
 }
 
 .txt-banner {
-    color: #00BAA4;
+    color: #00A58E;
 }
 
 @media (max-width: 767px) {
@@ -2436,7 +2447,7 @@ main {
 }
 
 .txt-banner p span {
-    color: #00BAA4;
+    color: #00A58E;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -2481,7 +2492,7 @@ main {
 
 .margen-descargas {
     width: 100%;
-    color: #00BAA4;
+    color: #00A58E;
 }
 
 @media (max-width: 767px) {
@@ -2627,7 +2638,7 @@ main {
 }
 
 .abrir-cuenta .line {
-    border-bottom: 1px solid #00BAA4;
+    border-bottom: 1px solid #00A58E;
 }
 
 @media (max-width: 767px) {
@@ -2767,7 +2778,7 @@ main {
 
 .list li span {
     font-size: 23px;
-    color: #00BAA4;
+    color: #00A58E;
     font-family: 'Montserrat', sans-serif;
     margin-left: 10px;
     display: block;
@@ -2795,7 +2806,7 @@ main {
     display: block;
     width: 10px;
     height: 10px;
-    background: #00BAA4;
+    background: #00A58E;
     border-radius: 50%;
 }
 
@@ -3505,7 +3516,7 @@ form {
 form label {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    color: #00BAA4;
+    color: #00A58E;
 }
 
 @media (max-width: 767px) {
@@ -3524,8 +3535,8 @@ form .input-group input {
     border-top-left-radius: 11px;
     border-bottom-left-radius: 11px;
     height: 54px;
-    border: 1px solid #00BAA4;
-    color: #00BAA4;
+    border: 1px solid #00A58E;
+    color: #00A58E;
     padding-left: 98px;
     font-size: 15px;
 }
@@ -3539,16 +3550,17 @@ form .input-group input {
 }
 
 form .input-group .input-group-text {
-    background: #00BAA4;
+    background: #00A58E;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    border-color: #00BAA4;
+    border-color: #00A58E;
     border-radius: 11px;
     width: 425px;
     text-align: center;
     display: block;
     height: 54px;
+    padding-top: 3%;
 }
 
 @media (max-width: 767px) {
@@ -3562,11 +3574,11 @@ form .cod-nacional {
     position: absolute;
     width: 93px;
     height: 30px;
-    border-right: 1px solid #00BAA4;
+    border-right: 1px solid #00A58E;
     top: 12px;
     text-align: right;
     padding: 4px 15px;
-    color: #00BAA4;
+    color: #00A58E;
 }
 
 @media (max-width: 767px) {
@@ -3613,11 +3625,11 @@ form .cod-nacional {
 }
 
 .sticky .descarga-sticky {
-    background: #00BAA4;
+    background: #00A58E;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
-    border-color: #00BAA4;
+    border-color: #00A58E;
     border-radius: 5px;
     width: 137px;
     text-align: center;
@@ -3693,17 +3705,17 @@ button:focus {
 }
 
  ::placeholder {
-    color: #00BAA4 !important;
+    color: #00A58E !important;
     opacity: 0.31 !important;
 }
 
  :-ms-input-placeholder {
-    color: #00BAA4 !important;
+    color: #00A58E !important;
     opacity: 0.31 !important;
 }
 
  ::-ms-input-placeholder {
-    color: #00BAA4 !important;
+    color: #00A58E !important;
     opacity: 0.31 !important;
 }
 
@@ -3720,15 +3732,15 @@ textarea {
     -ms-transition: all 0.30s ease-in-out;
     -o-transition: all 0.30s ease-in-out;
     outline: none;
-    border: 1px solid #00BAA4;
+    border: 1px solid #00A58E;
 }
 
 input[type=text]:focus,
 input[type=number]:focus,
 input[type=password]:focus,
 textarea:focus {
-    box-shadow: 0px 1px 3px 0px #00BAA4 !important;
-    border: 2px solid #00BAA4 !important;
+    box-shadow: 0px 1px 3px 0px #00A58E !important;
+    border: 2px solid #00A58E !important;
     background: #ffffff69 !important;
 }
 
@@ -3757,7 +3769,7 @@ h6 {
 h5 {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    color: #00BAA4;
+    color: #00A58E;
 }
 
 @media (max-width: 767px) {
@@ -3769,7 +3781,7 @@ h5 {
 h4 {
     font-size: 26px;
     font-family: 'Montserrat', sans-serif;
-    color: #00BAA4;
+    color: #00A58E;
 }
 
 @media (max-width: 767px) {
@@ -3782,7 +3794,7 @@ h4 {
 h3 {
     font-size: 35px;
     font-family: 'Montserrat', sans-serif;
-    color: #00BAA4;
+    color: #00A58E;
 }
 
 @media (max-width: 767px) {
@@ -3951,14 +3963,14 @@ b {
 }
 
 .p-cookie .mas {
-    color: #00BAA4;
+    color: #00A58E;
     border-bottom: 1px solid #F4E621;
     text-decoration: none;
     cursor: pointer;
 }
 
 .p-cookie .mas:hover {
-    color: #00BAA4;
+    color: #00A58E;
 }
 
 .p-cookie .cont-cookie {
@@ -3980,7 +3992,7 @@ b {
 
 .p-cookie .btn-cookie {
     margin-left: 20px;
-    color: #00BAA4;
+    color: #00A58E;
     border-radius: 5px;
     padding: 5px 30px;
     font-size: 9px;
@@ -3994,7 +4006,7 @@ b {
 }
 
 .p-cookie .btn-cookie:hover {
-    color: #00BAA4;
+    color: #00A58E;
     text-decoration: none;
 }
 
@@ -4034,7 +4046,7 @@ b {
 }
 
 .modal-cookie .cookie-flex {
-    color: #00BAA4;
+    color: #00A58E;
     font-size: 15px;
     align-items: center;
 }
@@ -4078,7 +4090,7 @@ b {
 }
 
 .modal-cookie .close span {
-    color: #00BAA4;
+    color: #00A58E;
     font-size: 41px;
     font-weight: 400;
 }
