@@ -1,0 +1,133 @@
+body { 
+    background: linear-gradient(0deg, rgba(135,213,203,1) 0%, rgba(255,255,255,1) 100%);
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login-form {
+    margin-top: 10px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.containerCorreo {
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comenzar {
+    width: 790px;
+    height: 108px;
+    background: #00A58E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#h1correo {
+    width: 443px;
+    height: 55px;
+    top: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+#h2correo {
+    font-family: Gotham Book;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.nombre-correo {
+    font-family: Gotham Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    align-items: center;
+    color: #595959;
+}
+
+.inputcorreos {
+    width: 790px;
+    height: 363px;
+    background: #FFFFFF;
+    margin-top: -1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.correo-name {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nombre-correo {  
+    display: flex;
+    width: 66%; 
+    margin-left: 25%;
+}
+input::-webkit-input-placeholder {
+    color: rgba(89, 89, 89, 0.45);
+        font-weight: bold;
+        font-family: Gotham Book;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+}
+input::-moz-placeholder {
+    color: rgba(89, 89, 89, 0.45);
+    font-weight: bold;
+    font-family: Gotham Book;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.input {
+    font-family: Gotham Book;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: rgba(89, 89, 89, 0.45);
+    width: 42%;
+    background-color: #fff;
+    border: none;
+    border-bottom: thin solid #00A58E;
+    margin-top: 3%;
+
+}
+#continuar {
+    width: 323px;
+    height: 63px;
+    background: #fff;
+    color: #595959;
+    font-size: 22px;
+    border-radius: 11px;
+    border: 1 px solid;
+    text-decoration: none;
+}
+.boton {
+    margin-top: 7%;
+}
