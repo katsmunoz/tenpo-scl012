@@ -121,6 +121,14 @@ input::-moz-placeholder {
     margin-top: 3%;
 }
 
+.checkbox {
+    margin-top: 5%;
+}
+
+span {
+    color: #00A58E;
+}
+
 #continuar {
     width: 323px;
     height: 63px;
