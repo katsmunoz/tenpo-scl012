@@ -105,7 +105,6 @@ input::-moz-placeholder {
     font-size: 18px;
 }
 
-
 .input {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -120,6 +119,14 @@ input::-moz-placeholder {
     border: none;
     border-bottom: thin solid #00A58E;
     margin-top: 3%;
+}
+
+.checkbox {
+    margin-top: 5%;
+}
+
+span {
+    color: #00A58E;
 }
 
 #continuar {
