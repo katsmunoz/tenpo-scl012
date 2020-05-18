@@ -18,20 +18,26 @@
         <div id="emailLogin" class="content-box">
             <header>
                 <h1 tabindex="0">Ahora si comencemos....</h1>
-                <h2 tabindex="0">Ingresa tu nombre y correo electrónico</h2>
+                   <h2 tabindex="0">Ingresa tu nombre y correo electrónico</h2>
             </header>
             <div class="inputcorreos">
-                <div class="correo-name">
+                <form class="correo-name">
                     <label for="nombre" class="nombre-correo">Nombre</label>
-                    <input id="nombre" class="input" type="text" name="textfield" placeholder="Escribe aquí tu nombre y apellido"
-                        aria-placeholder="Ingresa tu nombre" />
-                </div>
+                    <input id="nombre" class="input" type="text" 
+                    name="nombre"
+                     placeholder="Escribe aquí tu nombre y apellido"
+                    aria-required="true" aria-invalid="grammar" required/>
+                </form>
                 <div class="correo-name">
                     <label for="email" class="nombre-correo">Correo electrónico</label>
-                    <input id="email" class="input" type="email" name="textfield" placeholder="Escribe aquí tu correo electrónico" />
+                    <input id="email" class="input" type="email" 
+                    name="email"
+                    placeholder="Escribe aquí tu correo electrónico"
+                     required/>
+                    
                 </div>
                 <div class="boton">
-                    <button id="continuar" >Continuar</button>
+                    <button id="continuar" onclick="Registrar()">Continuar</button>
 
                 </div>
             </div>
@@ -40,7 +46,7 @@
         </div>
 
     </main>
-
+<script src="app.js"></script>
 </body>
 
 </html>
