@@ -2417,8 +2417,8 @@ main {
 }
 
 .banner-home {
-    background: ##00A58E;
-    position: relative;
+    background: #00A58E;
+    position : relative;
 }
 
 @media (max-width: 767px) {
